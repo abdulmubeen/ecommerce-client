@@ -1,6 +1,6 @@
 export interface Billboard {
   id: String;
-  name: String;
+  label: String;
   imageUrl: String;
 }
 
