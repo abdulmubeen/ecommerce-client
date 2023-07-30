@@ -1,12 +1,12 @@
 export interface Billboard {
-  id: String;
-  label: String;
-  imageUrl: String;
+  id: string;
+  label: string;
+  imageUrl: string;
 }
 
 export interface Category {
-  id: String;
-  name: String;
+  id: string;
+  name: string;
   billboard: Billboard;
 }
 
